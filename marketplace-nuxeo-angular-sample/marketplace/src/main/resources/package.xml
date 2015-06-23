@@ -1,0 +1,21 @@
+<!-- See documentation at http://doc.nuxeo.com/x/HgIz -->
+<package type="addon" name="nuxeo-angular-sample-marketplace" version="@VERSION@">
+  <title>Nuxeo Angular Sample</title>
+  <description>
+    <p>Nuxeo Angular Sample</p>
+  </description>
+  <home-page>https://nuxeo.com</home-page>
+  <vendor>Nuxeo</vendor>
+  <installer restart="true" />
+  <uninstaller restart="true" />
+  <!-- <hotreload-support>false</hotreload-support> -->
+  <!-- <require-terms-and-conditions-acceptance>false</require-terms-and-conditions-acceptance> -->
+  <nuxeo-validation>nuxeo_certified</nuxeo-validation>
+  <production-state>production_ready</production-state>
+  <supported>true</supported>
+  <platforms>
+    <platform>cap-@DISTRIB_VERSION@</platform>
+  </platforms>
+  <license>All Rights Reserved</license>
+  <license-url></license-url>
+</package>

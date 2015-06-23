@@ -1,0 +1,14 @@
+*~
+*.pyc
+*.swp
+.classpath
+.project
+.settings
+.DS_Store
+*.idea
+*.iml
+*.tmp
+bower_components
+node_modules
+target
+bin
